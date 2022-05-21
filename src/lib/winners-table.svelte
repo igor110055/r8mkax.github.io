@@ -52,7 +52,7 @@ export let results = [];
       <br />
     {/each}
     <br />
-    Total profit (counting all binance BNB fees) {w.profit.sub( 1 ).mul( 100 ).toFixed( 4 )}%
+    Total profit (counting all binance BNB fees) {w.profit.sub( 1 ).mul( 44 ).toFixed( 4 )}%
     <br />
   </p>
   <hr/>
