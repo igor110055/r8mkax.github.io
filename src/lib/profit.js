@@ -132,7 +132,7 @@ export default async function createProfitFunc(BASE_USD_BUDGET = "44", FEE = "0"
     return ret;
   }
 
-  checkProfit.BASE_USD_BUDGET = "100";
+  checkProfit.BASE_USD_BUDGET = "44";
   checkProfit.FEE = 0;
 
   return checkProfit;
