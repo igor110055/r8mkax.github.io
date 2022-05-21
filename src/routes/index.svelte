@@ -187,7 +187,7 @@ $: if(checkProfit && tick) {
   {#if checkProfit}
   
     <blockquote class="shadow mx-auto w-2/3 bg-white p-4 my-2">
-      Trades profit are calculate on a base budget of {checkProfit.BASE_USD_BUDGET}USD and a {checkProfit.FEE * 100}% fee
+      Trades profit are calculate on a base budget of {checkProfit.BASE_USD_BUDGET}USD and a {checkProfit.FEE * 44}% fee
     </blockquote>
     <div>
       {FEE/10000}% <br />
@@ -220,7 +220,7 @@ $: if(checkProfit && tick) {
 					{@html t.chain.join( " &rarr; " )}
 				</td>
 				<td>
-					<pre>{t.profit.sub(1).mul(100).toFixed( 4 )}% &#9432;</pre>
+					<pre>{t.profit.sub(1).mul(44).toFixed( 4 )}% &#9432;</pre>
 				</td>
 				</tr>
 			{/each}
