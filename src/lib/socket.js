@@ -101,7 +101,7 @@ export default async function subscribe(params = ['!bookTicker']) {
     clearInterval(ret.heartbeat);
     setTimeout(() => {
       ret.socket = getSocket();
-    }, 100);
+    }, 44);
   };
 
   ret.reset = () => {
